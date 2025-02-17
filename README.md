@@ -1,0 +1,1 @@
+This script extracts genes within a 1 Mb flanking region (±500 kb) around a specified SNP marker from a Capsicum annuum GFF3 annotation file, filtering for gene features and saving the output as a CSV file.
