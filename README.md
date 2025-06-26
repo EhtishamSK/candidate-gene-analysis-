@@ -9,7 +9,7 @@ This R script performs candidate gene analysis by extracting gene features from 
   Ensure the GFF3 file is in the same directory as the script or provide the correct file path.
 
 ## Script Description
-The script (`snp_analysis.R`) performs the following steps:
+The script performs the following steps:
 1. Reads a GFF3 file, ignoring comment lines starting with `#`.
 2. Filters for features labeled as `gene` in the third column of the GFF3 file.
 3. Defines a genomic region around a user-specified SNP position using a customizable flanking window (e.g., ±500,000 bp).
